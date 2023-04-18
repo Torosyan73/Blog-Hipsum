@@ -1,0 +1,7 @@
+mixin post-widget(src, alt, title, info, link="#!")
+    .post-widget
+        .post-widget__img
+            img(src="./img/posts/posts-avatar/" + src, alt= alt)
+        h3.post-widget__title 
+            a(href= link) #{title}
+        .post-widget__info #{info}

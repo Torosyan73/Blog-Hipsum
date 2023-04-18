@@ -1,0 +1,53 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+p + p {
+    margin-top: 1em;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    &--small {
+        max-width: 860px;
+    }
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+    &--dark {
+        font-weight: 500;
+        font-size: 12px;
+        color: #FFFFFF;
+        background-color: #375573;
+        transition: opacity 0.2s ease-in;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+
+    &--subscribe {
+        padding: 11px 40px 12px; 
+        border-radius: 50px;
+    }
+
+    &--readMore {
+        padding: 14px 30px 15px;
+        border-radius: 6px;
+    }
+
+    &--commit {
+        padding: 16px 40px;
+        border-radius: 6px;
+    }
+}
+
+// font-family: 'Playfair Display', serif;

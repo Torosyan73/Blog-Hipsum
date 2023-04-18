@@ -1,0 +1,8 @@
+mixin full-post(title, info, src, alt)
+    .full-post
+        h2.full-post__title #{title}
+        .full-post__info #{info}
+        .full-post__img
+            img(src="./img/posts/posts-preview/" + src, alt= alt)
+        .full-post__text
+            block

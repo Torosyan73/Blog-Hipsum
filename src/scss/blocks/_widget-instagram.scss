@@ -1,0 +1,22 @@
+.widget-instagram {
+    padding: 20px 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.widget-instagram__link {
+    transition: opacity 0.2s ease-in;
+
+    & img {
+        width: 120px;
+        height: 100px;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+
+    &:hover {
+        opacity: 0.7;
+    }
+}

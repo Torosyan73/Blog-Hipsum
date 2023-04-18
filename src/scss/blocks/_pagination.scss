@@ -1,0 +1,34 @@
+.pagination {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination__recent-link, .pagination__older-link, .pagination__current-link {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        color: #E84C50;
+    }
+}
+
+.pagination__current {
+    display: flex;
+    column-gap: 20px;
+}
+
+.pagination__current-link {
+    font-size: 18px;
+  
+    &--active {
+        color: #E84C50;
+    }
+}
+
+

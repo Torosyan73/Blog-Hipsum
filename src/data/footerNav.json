@@ -1,0 +1,33 @@
+{
+    "footerNavFirst" : [
+        {
+            "title": "Latest Posts", 
+            "link": "#!"
+        }, 
+        {
+            "title": "Popular Posts", 
+            "link": "#!"
+        }
+    ],
+    "footerNavSecond" : [
+        {
+            "title": "Search", 
+            "link": "#!"
+        }, 
+        {
+            "title": "Contact Information", 
+            "link": "#!"
+        }
+    ],
+    "footerNavThird" : [
+        {
+            "title": "Privacy Policy", 
+            "link": "#!"
+        }, 
+        {
+            "title": "Terms of Use", 
+            "link": "#!"
+        }
+    ],
+    "footerCopyright" : "© Copyright 2019. All rights reserved."
+}

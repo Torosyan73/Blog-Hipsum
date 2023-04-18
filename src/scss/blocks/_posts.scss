@@ -1,0 +1,17 @@
+.posts {
+    display: flex;
+    column-gap: 30px;
+}
+
+.post-previews__wrapper {
+    max-width: 870px;
+    margin-bottom: 40px;
+}
+
+.post-widgets__wrapper {
+    padding-top: 60px;
+    max-width: 270px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}

@@ -1,0 +1,15 @@
+mixin post-preview(title, info, src, alt, link)
+    .post-preview
+        h2.post-preview__title #{title}
+        .post-preview__info #{info}
+        .post-preview__img
+            img(src="./img/posts/posts-preview/" + src, alt= alt)
+        .post-preview__content
+            block
+        .post-preview__footer
+            .post-preview__button
+                +button-read-more('read more', link)
+            .post-preview__share
+                include ./../blocks/share-icons
+                    
+                    

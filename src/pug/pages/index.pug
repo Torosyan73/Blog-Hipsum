@@ -1,0 +1,19 @@
+extends ./../layouts/main
+
+block variable 
+    - const title = jsonData.mainPageTitle
+
+block main-content 
+    main.main
+        .container
+            .posts
+                .post-previews__wrapper
+                    each item in jsonData.postsOnMainPage
+                        +post-preview(item.title, item.info, item.imgSrc, item.imgAlt, item.link)
+                            p #{item.text}
+                    include ./../blocks/pagination
+                .post-widgets__wrapper
+                    include ./../blocks/recent-posts
+                    include ./../blocks/popular-posts
+                    include ./../blocks/widget-instagram
+

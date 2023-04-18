@@ -1,0 +1,15 @@
+mixin commentImg(name, src, alt)
+    .comment
+        .comment__header
+            .comment__img
+                img(src="./img/users/" + src, alt= alt) 
+            .comment__user #{name}
+        .commetn__content
+            block 
+
+mixin comment(name)
+    .comment
+        .comment__header 
+            .comment__user #{name}
+        .commetn__content
+            block 

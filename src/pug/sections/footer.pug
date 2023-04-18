@@ -1,0 +1,15 @@
+footer.footer
+    .footer__nav
+        .container
+            .footer__row
+                .footer__col 
+                    +footer-nav(footerNav.footerNavFirst)
+                .footer__col
+                    +footer-nav(footerNav.footerNavSecond)
+                .footer__col
+                    +footer-nav(footerNav.footerNavThird)
+                .footer__col
+                    include ./../blocks/social-icons
+    .copyright
+        .container
+            .copyright__text #{footerNav.footerCopyright}

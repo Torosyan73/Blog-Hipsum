@@ -1,0 +1,22 @@
+{
+    "socialIcons" : [
+        {
+            "imgSrc" : "./img/icons/social/instagram.svg", 
+            "imgAlt" : "Instagram", 
+            "link" : "#!",
+            "width" : "22"
+        },
+        {
+            "imgSrc" : "./img/icons/social/twitter.svg", 
+            "imgAlt" : "Twitter", 
+            "link" : "#!",
+            "width" : "24"
+        },
+        {
+            "imgSrc" : "./img/icons/social/facebook.svg", 
+            "imgAlt" : "Facebook", 
+            "link" : "#!",
+            "width" : "14"
+        }
+    ]
+}
